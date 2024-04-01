@@ -1,0 +1,267 @@
+{
+  "shoes": [
+    {
+      "id": 1,
+      "title": "Nike Dunk Low Retro",
+      "price": 119,
+      "model": "nike",
+      "description": "Confortable, résistante et intemporelle : elle n'est pas classée numéro 1 pour rien. Le design des années 80 associé à des couleurs classiques. Un plaisir sur le terrain comme au quotidien.",
+      "image": "chaussure-dunk-low-retro-pour-wwlDHh",
+      "slug": "chaussure-dunk-low-retro",
+      "variation": [
+        {
+          "id": 1,
+          "color": "noir",
+          "classColor": "bg-black",
+          "varia": [
+            "chaussure-dunk-low-retro-pour-wwlDHh-v1",
+            "chaussure-dunk-low-retro-pour-wwlDHh-v2",
+            "chaussure-dunk-low-retro-pour-wwlDHh-v3"
+          ]
+        },
+        {
+          "id": 2,
+          "color": "violet",
+          "classColor": "bg-violet-500",
+          "varia": [
+            "chaussure-dunk-low-retro-pour-wwlDHh-violet-v1",
+            "chaussure-dunk-low-retro-pour-wwlDHh-violet-v2",
+            "chaussure-dunk-low-retro-pour-wwlDHh-violet-v3"
+          ]
+        }
+      ],
+      "size": [
+        "38.5",
+        "39",
+        "40",
+        "40.5",
+        "41",
+        "42",
+        "42.5",
+        "43",
+        "44",
+        "44.5",
+        "46",
+        "47"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Nike Air Force 1 '07",
+      "price": 119,
+      "model": "nike",
+      "description": "Confortable, résistante et intemporelle : elle n'est pas classée numéro 1 pour rien. Le design des années 80 associé à des couleurs classiques. Un plaisir sur le terrain comme au quotidien.",
+      "color": ["white", "black"],
+      "image": "chaussure-air-force-1-07-pour-qcn0p9",
+      "slug": "chaussure-air-force-1-07",
+      "variation": [
+        "chaussure-dunk-low-retro-pour-wwlDHh-v1",
+        "chaussure-dunk-low-retro-pour-wwlDHh-v2",
+        "chaussure-dunk-low-retro-pour-wwlDHh-v3"
+      ],
+      "size": [
+        "38.5",
+        "39",
+        "40",
+        "40.5",
+        "41",
+        "42",
+        "42.5",
+        "43",
+        "44",
+        "44.5",
+        "46",
+        "47"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Nike Air Force 1 '07 Next Nature",
+      "price": 119,
+      "model": "nike",
+      "description": "Confortable, résistante et intemporelle : elle n'est pas classée numéro 1 pour rien. Le design des années 80 associé à des couleurs classiques. Un plaisir sur le terrain comme au quotidien.",
+      "color": ["white", "black"],
+      "image": "chaussures-air-force-1-07-next-nature-pour-7dl9fM",
+      "slug": "chaussures-air-force-1-07-next-nature",
+      "variation": [
+        "chaussure-dunk-low-retro-pour-wwlDHh-v1",
+        "chaussure-dunk-low-retro-pour-wwlDHh-v2",
+        "chaussure-dunk-low-retro-pour-wwlDHh-v3"
+      ],
+      "size": [
+        "38.5",
+        "39",
+        "40",
+        "40.5",
+        "41",
+        "42",
+        "42.5",
+        "43",
+        "44",
+        "44.5",
+        "46",
+        "47"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Nike Dunk Low",
+      "price": 129.99,
+      "model": "nike",
+      "description": "Confortable, résistante et intemporelle : elle n'est pas classée numéro 1 pour rien. Le design des années 80 associé à des couleurs classiques. Un plaisir sur le terrain comme au quotidien.",
+      "color": ["white", "black"],
+      "image": "chaussure-dunk-low-pour-NDWvwq",
+      "slug": "chaussure-dunk-low",
+      "variation": [
+        "chaussure-dunk-low-retro-pour-wwlDHh-v1",
+        "chaussure-dunk-low-retro-pour-wwlDHh-v2",
+        "chaussure-dunk-low-retro-pour-wwlDHh-v3"
+      ],
+      "size": [
+        "38.5",
+        "39",
+        "40",
+        "40.5",
+        "41",
+        "42",
+        "42.5",
+        "43",
+        "44",
+        "44.5",
+        "46",
+        "47"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Nike Romaleos 4",
+      "price": 199.99,
+      "model": "nike",
+      "description": "Confortable, résistante et intemporelle : elle n'est pas classée numéro 1 pour rien. Le design des années 80 associé à des couleurs classiques. Un plaisir sur le terrain comme au quotidien.",
+      "color": ["white", "black"],
+      "image": "chaussure-de-renforcement-musculaire-romaleos-4-49p8Ns",
+      "slug": "chaussure-de-renforcement-musculaire-romaleos",
+      "variation": [
+        "chaussure-dunk-low-retro-pour-wwlDHh-v1",
+        "chaussure-dunk-low-retro-pour-wwlDHh-v2",
+        "chaussure-dunk-low-retro-pour-wwlDHh-v3"
+      ],
+      "size": [
+        "38.5",
+        "39",
+        "40",
+        "40.5",
+        "41",
+        "42",
+        "42.5",
+        "43",
+        "44",
+        "44.5",
+        "46",
+        "47"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Nike Air Force 1 LE",
+      "price": 94,
+      "model": "nike",
+      "description": "Confortable, résistante et intemporelle : elle n'est pas classée numéro 1 pour rien. Le design des années 80 associé à des couleurs classiques. Un plaisir sur le terrain comme au quotidien.",
+      "color": ["white", "black"],
+      "image": "chaussure-air-force-1-le-pour-ado-4dFJ5B",
+      "slug": "chaussure-air-force-1-le",
+      "variation": [
+        "chaussure-dunk-low-retro-pour-wwlDHh-v1",
+        "chaussure-dunk-low-retro-pour-wwlDHh-v2",
+        "chaussure-dunk-low-retro-pour-wwlDHh-v3"
+      ],
+      "size": [
+        "38.5",
+        "39",
+        "40",
+        "40.5",
+        "41",
+        "42",
+        "42.5",
+        "43",
+        "44",
+        "44.5",
+        "46",
+        "47"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Nike Air Max Plus",
+      "price": 199.99,
+      "model": "nike",
+      "description": "Confortable, résistante et intemporelle : elle n'est pas classée numéro 1 pour rien. Le design des années 80 associé à des couleurs classiques. Un plaisir sur le terrain comme au quotidien.",
+      "color": ["white", "black"],
+      "image": "chaussure-air-max-plus-pour-mSn1cX",
+      "slug": "chaussure-air-max-plus",
+      "variation": [
+        "chaussure-dunk-low-retro-pour-wwlDHh-v1",
+        "chaussure-dunk-low-retro-pour-wwlDHh-v2",
+        "chaussure-dunk-low-retro-pour-wwlDHh-v3"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Nike Air Force 1 '07",
+      "price": 129.99,
+      "model": "nike",
+      "description": "Confortable, résistante et intemporelle : elle n'est pas classée numéro 1 pour rien. Le design des années 80 associé à des couleurs classiques. Un plaisir sur le terrain comme au quotidien.",
+      "color": ["white", "black"],
+      "image": "chaussure-air-force-1-07-pour-DRv39l",
+      "slug": "chaussure-air-force-1-07",
+      "variation": [
+        "chaussure-dunk-low-retro-pour-wwlDHh-v1",
+        "chaussure-dunk-low-retro-pour-wwlDHh-v2",
+        "chaussure-dunk-low-retro-pour-wwlDHh-v3"
+      ],
+      "size": [
+        "38.5",
+        "39",
+        "40",
+        "40.5",
+        "41",
+        "42",
+        "42.5",
+        "43",
+        "44",
+        "44.5",
+        "46",
+        "47"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Nike Dunk Low Retro",
+      "price": 119.99,
+      "model": "nike",
+      "description": "Confortable, résistante et intemporelle : elle n'est pas classée numéro 1 pour rien. Le design des années 80 associé à des couleurs classiques. Un plaisir sur le terrain comme au quotidien.",
+      "color": ["white", "black"],
+      "image": "chaussures-dunk-low-retro-pour-4bbv52",
+      "slug": "chaussures-dunk-low-retro",
+      "variation": [
+        "chaussure-dunk-low-retro-pour-wwlDHh-v1",
+        "chaussure-dunk-low-retro-pour-wwlDHh-v2",
+        "chaussure-dunk-low-retro-pour-wwlDHh-v3"
+      ],
+      "size": [
+        "38.5",
+        "39",
+        "40",
+        "40.5",
+        "41",
+        "42",
+        "42.5",
+        "43",
+        "44",
+        "44.5",
+        "46",
+        "47"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+/* Réinitialisation CSS de base */
+
+/* Remise à zéro des marges et des rembourrages */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Remise à zéro des bordures */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Remise à zéro des styles de texte */
+body,
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/* Remise à zéro des styles de liste */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remise à zéro des styles de lien (optionnel) */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remise à zéro des éléments flottants (optionnel) */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Ajoutez vos réinitialisations spécifiques au projet ci-dessous */
