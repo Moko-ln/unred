@@ -18,7 +18,7 @@ export default function layoutMain({
 }) {
   return (
     <>
-      <Header />
+      <Header menu wishlist/>
       <main>{children}</main>
       <Footer />
     </>

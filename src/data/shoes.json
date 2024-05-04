@@ -12,37 +12,87 @@
         {
           "id": 1,
           "color": "noir",
-          "classColor": "bg-black",
-          "varia": [
+          "classColor": "#272727",
+          "images": [
             "chaussure-dunk-low-retro-pour-wwlDHh-v1",
             "chaussure-dunk-low-retro-pour-wwlDHh-v2",
             "chaussure-dunk-low-retro-pour-wwlDHh-v3"
+          ],
+          "detail": [
+            {
+              "id": 1,
+              "size":41,
+              "stocks": 3
+            },
+            {
+              "id": 2,
+              "size":42,
+              "stocks": 3
+            },
+            {
+              "id": 3,
+              "size":43,
+              "stocks": 3
+            },
+            {
+              "id": 4,
+              "size":44,
+              "stocks": 2
+            },
+            {
+              "id": 5,
+              "size":45,
+              "stocks": 1
+            },
+            {
+              "id": 6,
+              "size":46,
+              "stocks": 3
+            }
           ]
         },
         {
           "id": 2,
           "color": "violet",
-          "classColor": "bg-violet-500",
-          "varia": [
+          "classColor": "#C026D3",
+          "images": [
             "chaussure-dunk-low-retro-pour-wwlDHh-violet-v1",
             "chaussure-dunk-low-retro-pour-wwlDHh-violet-v2",
             "chaussure-dunk-low-retro-pour-wwlDHh-violet-v3"
+          ],
+          "detail": [
+            {
+              "id": 1,
+              "size":"41",
+              "stocks": 3
+            },
+            {
+              "id": 2,
+              "size":"42",
+              "stocks": 3
+            },
+            {
+              "id": 3,
+              "size":"43",
+              "stocks": 3
+            },
+            {
+              "id": 4,
+              "size":"44",
+              "stocks": 2
+            },
+            {
+              "id": 5,
+              "size":"45",
+              "stocks": 1
+            },
+            {
+              "id": 6,
+              "size":"46",
+              "stocks": 3
+            }
           ]
         }
-      ],
-      "size": [
-        "38.5",
-        "39",
-        "40",
-        "40.5",
-        "41",
-        "42",
-        "42.5",
-        "43",
-        "44",
-        "44.5",
-        "46",
-        "47"
       ]
     },
     {
@@ -58,27 +108,13 @@
         "chaussure-dunk-low-retro-pour-wwlDHh-v1",
         "chaussure-dunk-low-retro-pour-wwlDHh-v2",
         "chaussure-dunk-low-retro-pour-wwlDHh-v3"
-      ],
-      "size": [
-        "38.5",
-        "39",
-        "40",
-        "40.5",
-        "41",
-        "42",
-        "42.5",
-        "43",
-        "44",
-        "44.5",
-        "46",
-        "47"
       ]
     },
     {
       "id": 3,
       "title": "Nike Air Force 1 '07 Next Nature",
       "price": 119,
-      "model": "nike",
+      "model": "Addidas",
       "description": "Confortable, résistante et intemporelle : elle n'est pas classée numéro 1 pour rien. Le design des années 80 associé à des couleurs classiques. Un plaisir sur le terrain comme au quotidien.",
       "color": ["white", "black"],
       "image": "chaussures-air-force-1-07-next-nature-pour-7dl9fM",
@@ -87,20 +123,6 @@
         "chaussure-dunk-low-retro-pour-wwlDHh-v1",
         "chaussure-dunk-low-retro-pour-wwlDHh-v2",
         "chaussure-dunk-low-retro-pour-wwlDHh-v3"
-      ],
-      "size": [
-        "38.5",
-        "39",
-        "40",
-        "40.5",
-        "41",
-        "42",
-        "42.5",
-        "43",
-        "44",
-        "44.5",
-        "46",
-        "47"
       ]
     },
     {
@@ -116,20 +138,6 @@
         "chaussure-dunk-low-retro-pour-wwlDHh-v1",
         "chaussure-dunk-low-retro-pour-wwlDHh-v2",
         "chaussure-dunk-low-retro-pour-wwlDHh-v3"
-      ],
-      "size": [
-        "38.5",
-        "39",
-        "40",
-        "40.5",
-        "41",
-        "42",
-        "42.5",
-        "43",
-        "44",
-        "44.5",
-        "46",
-        "47"
       ]
     },
     {
@@ -145,20 +153,6 @@
         "chaussure-dunk-low-retro-pour-wwlDHh-v1",
         "chaussure-dunk-low-retro-pour-wwlDHh-v2",
         "chaussure-dunk-low-retro-pour-wwlDHh-v3"
-      ],
-      "size": [
-        "38.5",
-        "39",
-        "40",
-        "40.5",
-        "41",
-        "42",
-        "42.5",
-        "43",
-        "44",
-        "44.5",
-        "46",
-        "47"
       ]
     },
     {
@@ -174,20 +168,6 @@
         "chaussure-dunk-low-retro-pour-wwlDHh-v1",
         "chaussure-dunk-low-retro-pour-wwlDHh-v2",
         "chaussure-dunk-low-retro-pour-wwlDHh-v3"
-      ],
-      "size": [
-        "38.5",
-        "39",
-        "40",
-        "40.5",
-        "41",
-        "42",
-        "42.5",
-        "43",
-        "44",
-        "44.5",
-        "46",
-        "47"
       ]
     },
     {
@@ -218,20 +198,6 @@
         "chaussure-dunk-low-retro-pour-wwlDHh-v1",
         "chaussure-dunk-low-retro-pour-wwlDHh-v2",
         "chaussure-dunk-low-retro-pour-wwlDHh-v3"
-      ],
-      "size": [
-        "38.5",
-        "39",
-        "40",
-        "40.5",
-        "41",
-        "42",
-        "42.5",
-        "43",
-        "44",
-        "44.5",
-        "46",
-        "47"
       ]
     },
     {
@@ -247,20 +213,6 @@
         "chaussure-dunk-low-retro-pour-wwlDHh-v1",
         "chaussure-dunk-low-retro-pour-wwlDHh-v2",
         "chaussure-dunk-low-retro-pour-wwlDHh-v3"
-      ],
-      "size": [
-        "38.5",
-        "39",
-        "40",
-        "40.5",
-        "41",
-        "42",
-        "42.5",
-        "43",
-        "44",
-        "44.5",
-        "46",
-        "47"
       ]
     }
   ]

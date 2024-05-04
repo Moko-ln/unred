@@ -3,11 +3,11 @@ import { FiPercent, FiShoppingCart, FiTruck } from "react-icons/fi";
 
 export const ListComp = () => {
   return (
-    <ul className="flex items-center justify-center gap-10">
+    <ul className="flex lg:flex-nowrap flex-wrap items-center justify-center lg:gap-10 gap-4">
       {dataList.map((item) => (
         <li
           key={item.id}
-          className="w-2/5 flex flex-col gap-2 border border-solid border-slate-200 p-4 rounded-xl"
+          className="lg:w-2/5 w-full flex flex-col gap-2 border border-solid border-slate-200 p-4 rounded-xl"
         >
           <p
             className={`${montserrat.className} text-lg font-extrabold text-slate-800`}

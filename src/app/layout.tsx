@@ -1,6 +1,8 @@
 import { lato } from "@/fonts/Fonts";
 import type { Metadata } from "next";
 import "../assets/scss/index.scss";
+import StoreProvider from "@/redux/StoreProvider";
+import {Toaster} from "react-hot-toast";
 
 export const metadata: Metadata = {
   title: "UnderLux | Soyez dans le coup!",
@@ -14,8 +16,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fr" className={lato.className}>
-      <body>{children}</body>
-    </html>
+    <StoreProvider>
+      <html lang="fr" className={lato.className}>
+        <body>
+            {children}
+            <Toaster/>
+        </body>
+      </html>
+    </StoreProvider>
+
   );
 }

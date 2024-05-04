@@ -1,10 +1,11 @@
 "use client";
 
-import { ButtonCart } from "@/components/button/ButtonCart";
+import { ButtonLike } from "@/components/button/ButtonLike";
 import { montserrat } from "@/fonts/Fonts";
 import { dataCardShoesType } from "@/types";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
+import {useMediaQuery} from "react-responsive";
 
 export const CardShoes = ({
   id,
@@ -16,26 +17,28 @@ export const CardShoes = ({
   let router = useRouter();
 
   const handleClick = (slug: string) => {
-    return router.push(`homme/${slug}`);
+    return router.push(`/sneakers/${slug}`);
   };
 
+  const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
+
   return (
-    <div
-      className="flex flex-col gap-4 cursor-pointer"
-      onClick={() => handleClick(slug)}
-    >
+    <div className="flex flex-col gap-4" >
       <div className="flex items-start justify-between">
         <div>
-          <h3 className={`${montserrat.className} text-md font-bold text-left`}>
+          <h3 className={`${montserrat.className} text-md font-bold text-left text-xs lg:text-lg`}>{title}
             {title}
           </h3>
-          <p className="text-left">{price} €</p>
+          <p className="text-left text-sm"> {price} €</p>
         </div>
-        <ButtonCart id={id} sm />
+        <ButtonLike id={id} />
       </div>
 
-      <div className="max-h-[400px] order-first mb-4">
-        <figure className="max-h-[400px]">
+      <div
+          className={`lg:max-h-96 order-first mb-4 cursor-pointer`}
+          onClick={() => handleClick(slug)}
+      >
+        <figure className="lg:max-h-96 ">
           <Image
             src={`/uploads/man/current/${image}.png`}
             alt={`Image de couverture`}

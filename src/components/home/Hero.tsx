@@ -3,11 +3,12 @@
 import { montserrat } from "@/fonts/Fonts";
 import Image from "next/image";
 
-import Femme from "@/assets/images/femme.webp";
-import Homme from "@/assets/images/homme.webp";
-import Promo from "@/assets/images/promo.webp";
-import { motion } from "framer-motion";
+import Sneaker from "@/assets/images/homme.webp";
+import Exclus from "@/assets/images/promo.webp";
+import {motion, Variants} from "framer-motion";
 import { useRouter } from "next/navigation";
+import {dataHeroType} from "@/types";
+import {Brand} from "@/components/partials/header/Brand";
 
 export const Hero = () => {
   const router = useRouter();
@@ -16,25 +17,63 @@ export const Hero = () => {
     return router.push(`/${path}`);
   };
 
+  const list = {
+    visible: {
+      opacity: 1,
+      transition: {
+        when: "beforeChildren",
+        staggerChildren: 0.9,
+      },
+    },
+    hidden: {
+      opacity: 0,
+      transition: {
+        when: "afterChildren",
+      },
+    },
+  }
+
+
+  const itemList: Variants = {
+    hidden: { y: 20, opacity: 0 },
+    visible: {
+      y: 0,
+      opacity: 1,
+      transition: {
+        delay: 0.3 // Ajout du délai de 0.3s
+      }
+    }
+  };
+
   return (
-    <article className="min-h-screen bg-white pt-40">
+    <motion.article
+        className="min-h-screen bg-white lg:pt-40 py-28"
+
+        initial={{ opacity: 0, translateY: -20 }}
+        exit={{ opacity: 0, translateY: -20 }}
+        animate={{ opacity: 1, translateY: 0 }}
+        transition={{ type: "spring", duration: 0.6, ease: "easeIn" }}
+    >
       <div className="container-root">
         <div className="wrapper">
           <div className="absolute bg-transparent w-full left-0 top-0 h-20 flex items-center justify-center">
-            <h1
-              className={`${montserrat.className} text-5xl font-extrabold text-center`}
-            >
-              UnderLux
-            </h1>
+            <Brand />
           </div>
 
           <div>
-            <ul className="flex items-center justify-center gap-10">
-              {data.map((item) => (
-                <li
+            <motion.ul
+                className="flex flew-wrap lg:flex-row flex-col items-center justify-center gap-10"
+
+                initial="hidden"
+                animate="visible"
+                variants={list}
+            >
+              { data.map((item) => (
+                <motion.li
                   key={item.id}
-                  className="h-[500px] w-2/5 overflow-hidden relative cursor-pointer"
+                  className={`${item.id === 1 ? "h-[550px] grow shadow-2xl shadow-slate-50" : "lg:h-[500px] h-80"} lg:w-2/6 w-full overflow-hidden relative cursor-pointer`}
                   onClick={() => handleClickPath(item.path)}
+                  variants={itemList}
                 >
                   <div className="absolute w-full flex flex-col justify-center bottom-10 z-10">
                     <h2
@@ -44,8 +83,9 @@ export const Hero = () => {
                     </h2>
                     <p className="text-center text-slate-200">{item.text}</p>
                   </div>
+
                   <motion.figure
-                    className="h-[500px] w-full rounded-lg"
+                    className={` ${item.id === 1 ? "h-[550px]" :" lg:h-[500px] h-80" } w-full rounded-lg`}
                     whileHover={{ scale: 1.055 }}
                     whileTap={{ scale: 0.945 }}
                     transition={{
@@ -67,36 +107,36 @@ export const Hero = () => {
                       }}
                     />
                   </motion.figure>
-                </li>
+                </motion.li>
               ))}
-            </ul>
+            </motion.ul>
           </div>
         </div>
       </div>
-    </article>
+    </motion.article>
   );
 };
 
 const data = [
-  {
-    id: 1,
-    title: "Homme",
-    text: "Soyez dans le Coup",
-    image: Homme,
-    path: "homme",
-  },
+  // {
+  //   id: 1,
+  //   title: "Accessoires",
+  //   text: "Soyez dans le Coup",
+  //   image: Femme,
+  //   path: "accessoires",
+  // },
   {
     id: 2,
-    title: "Femme",
+    title: "Sneakers",
     text: "Soyez dans le Coup",
-    image: Femme,
-    path: "femme",
+    image: Sneaker,
+    path: "sneakers",
   },
   {
     id: 3,
-    title: "Promo",
+    title: "Exclusivités",
     text: "Soyez dans le Coup",
-    image: Promo,
-    path: "promo",
+    image: Exclus,
+    path: "exclusivites",
   },
 ];

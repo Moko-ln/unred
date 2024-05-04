@@ -1,33 +1,19 @@
-import { Cart } from "@/features/shop/components/Cart";
-import { montserrat } from "@/fonts/Fonts";
 import { Brand } from "./Brand";
+import {Navbar} from "@/components/partials/header/Navbar";
+import {WishListItem} from "@/features/shop/components/WishListItem";
 
-export const Header = () => {
+interface HeaderProps {
+    menu?:boolean;
+    wishlist?:boolean;
+}
+export const Header = ({ menu, wishlist }: HeaderProps) => {
   return (
-    <header className="h-20 flex items-center justify-center w-full fixed top-0 left-0 z-20">
+    <header className="min-h-20 flex items-center justify-center w-full z-30 shadow-sm bg-white">
       <div className="container-root w-full">
-        <div className="wrapper flex items-center justify-between">
-          <Brand />
-          <Cart />
-          <ul className="flex items-center justify-center gap-4 order-first">
-            <li className="text-slate-800">
-              <button
-                className={`${montserrat.className} text-slate-800 font-semibold`}
-              >
-                Homme
-              </button>
-            </li>
-            <li className="text-slate-300 ">
-              <button className={`${montserrat.className} text-slate-300`}>
-                Femme
-              </button>
-            </li>
-            <li className="text-slate-300 ">
-              <button className={`${montserrat.className} text-slate-300`}>
-                Promo
-              </button>
-            </li>
-          </ul>
+        <div className="wrapper flex items-center lg:flex-nowrap flex-wrap justify-between">
+            <Brand />
+            { wishlist && <WishListItem />}
+            { menu && <Navbar />}
         </div>
       </div>
     </header>
