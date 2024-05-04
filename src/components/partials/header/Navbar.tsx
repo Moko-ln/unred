@@ -38,6 +38,6 @@ const navList = [
     {
         id: 3,
         title: "Exclusivites",
-        path: "exclusivites"
+        path: "exclus"
     }
 ];

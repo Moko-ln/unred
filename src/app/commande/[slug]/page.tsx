@@ -28,7 +28,7 @@ export default function Commande () {
 
     const { oneShoes } = useFetchBySlug(slug);
 
-    const [quantity, setQuantity] = useState(1);
+    // const [quantity, setQuantity] = useState(1);
 
     useEffect(() => {
 
@@ -49,7 +49,7 @@ export default function Commande () {
         setMyColor(variation);
         setMySize(detailSize);
 
-    }, [myColor, mySize, oneShoes?.variation]);
+    }, [myColor, myDetail?.color, myDetail?.selectedSize, mySize, oneShoes?.variation]);
 
     return (
         <motion.section
@@ -105,7 +105,7 @@ export default function Commande () {
                                                             <p className="text-slate-500 lg:text-lg text-sm"> {isMobile ? "Taille" : "Taille / Pointure"} {mySize?.size}</p>
 
                                                             <button
-                                                                className="text-slate-500 flex items-center justify-center gap-2 lg:text-lg text-sm">Quantité <span>{quantity}</span>
+                                                                className="text-slate-500 flex items-center justify-center gap-2 lg:text-lg text-sm">Quantité <span>1</span>
                                                             </button>
                                                         </div>
 

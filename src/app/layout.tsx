@@ -5,7 +5,7 @@ import StoreProvider from "@/redux/StoreProvider";
 import {Toaster} from "react-hot-toast";
 
 export const metadata: Metadata = {
-  title: "UnderLux | Soyez dans le coup!",
+  title: "Unred | Soyez dans le coup!",
   description:
     "Découvrez l'élégance abordable avec UnderLuxe. Trouvez votre style parfait parmi notre collection de chaussures de luxe à prix accessibles. Élevez votre look dès aujourd'hui !",
 };

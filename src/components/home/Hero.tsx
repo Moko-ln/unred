@@ -47,7 +47,7 @@ export const Hero = () => {
 
   return (
     <motion.article
-        className="min-h-screen bg-white lg:pt-40 py-28"
+        className="min-h-[800px] bg-white lg:pt-40 py-28"
 
         initial={{ opacity: 0, translateY: -20 }}
         exit={{ opacity: 0, translateY: -20 }}
@@ -134,9 +134,9 @@ const data = [
   },
   {
     id: 3,
-    title: "Exclusivités",
+    title: "Exclus",
     text: "Soyez dans le Coup",
     image: Exclus,
-    path: "exclusivites",
+    path: "exclus",
   },
 ];

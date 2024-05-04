@@ -30,7 +30,7 @@ export default function Exclusivites () {
                     <h2 className={`${montserrat.className} lg:text-6xl text-3xl text-white font-extrabold`}>Marchez
                         dans <span
                             className="block">l&lsquo;exclusivité!</span></h2>
-                    <p className="text-slate-200 mb-4 lg:text-md ">
+                    <p className="text-slate-200 mb-4 lg:text-md text-sm">
                         Préparez-vous à découvrir une sélection unique de chaussures qui redéfiniront votre style.
                         Bientôt disponible. <span className="text-violet-500 underline">Restez connecté !</span>
                     </p>

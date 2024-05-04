@@ -7,7 +7,7 @@ export const Footer = () => {
       <div className="container-root">
         <div className="wrapper flex flex-col gap-4">
           <div className="flex items-center justify-between">
-            <p className="text-slate-500 text-sm">© 2024 UnderLux</p>
+            <p className="text-slate-500 text-sm">© 2024 Unred</p>
             <Social />
           </div>
 
