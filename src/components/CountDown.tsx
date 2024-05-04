@@ -35,29 +35,29 @@ export const Countdown: React.FC = () => {
     const seconds = formatNumberWithZero(Math.max(0, Math.floor((remainingTime % (1000 * 60)) / 1000)));
 
     return (
-        <ul className="absolute top-1/2 left-1/2  flex items-center gap-8 transform -translate-x-1/2  z-10">
+        <ul className="lg:absolute lg:top-1/2 lg:left-1/2  flex items-center lg:gap-8 gap-4 transform lg:-translate-x-1/2  z-10">
             <li
-                className={`text-5xl text-white font-extrabold border-4 border-solid border-white rounded-2xl flex flex-col items-center justify-center gap-4 p-4 ${montserrat.className}`}
+                className={`lg:text-5xl text-2xl text-white font-extrabold border-4 border-solid border-white rounded-2xl flex flex-col items-center justify-center gap-4 lg:p-4 p-2 ${montserrat.className}`}
             >{days}
-                <span className={`block text-4xl font-medium uppercase ${montserrat.className}`}>Jours</span>
+                <span className={`block lg:text-4xl font-medium uppercase text-xs ${montserrat.className}`}>Jours</span>
             </li>
 
             <li
-                className={`text-5xl text-white font-extrabold border-4 border-solid border-white rounded-2xl flex flex-col items-center justify-center gap-4 p-4 ${montserrat.className}`}
+                className={`lg:text-5xl text-2xl text-white font-extrabold border-4 border-solid border-white rounded-2xl flex flex-col items-center justify-center gap-4 lg:p-4 p-2 ${montserrat.className}`}
             >{hours}
-                <span className={`block text-4xl font-medium uppercase ${montserrat.className}`}>Heures</span>
+                <span className={`block lg:text-4xl font-medium uppercase text-xs ${montserrat.className}`}>Heures</span>
             </li>
 
             <li
-                className={`text-5xl text-white font-extrabold border-4 border-solid border-white rounded-2xl flex flex-col items-center justify-center gap-4 p-4 ${montserrat.className}`}
+                className={`lg:text-5xl text-2xl text-white font-extrabold border-4 border-solid border-white rounded-2xl flex flex-col items-center justify-center gap-4 lg:p-4 p-2 ${montserrat.className}`}
             >{minutes}
-                <span className={`block text-4xl font-medium uppercase ${montserrat.className}`}>Minutes</span>
+                <span className={`block lg:text-4xl font-medium uppercase text-xs ${montserrat.className}`}>Minutes</span>
             </li>
 
             <li
-                className={`text-5xl text-white font-extrabold border-4 border-solid border-white rounded-2xl flex flex-col items-center justify-center gap-4 p-4 ${montserrat.className}`}
+                className={`lg:text-5xl text-2xl text-white font-extrabold border-4 border-solid border-white rounded-2xl flex flex-col items-center justify-center gap-4 lg:p-4 p-2 ${montserrat.className}`}
             >{seconds}
-                <span className={`block text-4xl font-medium uppercase ${montserrat.className}`}>Secondes</span>
+                <span className={`block lg:text-4xl font-medium uppercase text-xs ${montserrat.className}`}>Secondes</span>
             </li>
         </ul>
     );

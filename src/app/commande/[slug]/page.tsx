@@ -28,8 +28,6 @@ export default function Commande () {
 
     const { oneShoes } = useFetchBySlug(slug);
 
-    // const oneShoes = useSelector((state: any) => state.shoes?.data);
-
     const [quantity, setQuantity] = useState(1);
 
     useEffect(() => {
@@ -53,9 +51,6 @@ export default function Commande () {
 
     }, [myColor, mySize, oneShoes?.variation]);
 
-
-    console.log(oneShoes)
-    console.log(myDetail)
     return (
         <motion.section
             className="panier-page"

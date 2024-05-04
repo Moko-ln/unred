@@ -18,30 +18,35 @@ export default function Exclusivites () {
         <motion.article
             className="min-h-screen w-full"
             style={{
-                backgroundImage: `url(./excluss.webp)`,
+                backgroundImage: `url(./${!isMobile ? 'excluss.webp':'exclus-mobile.webp'})`,
                 backgroundSize:"cover",
                 backgroundPosition: "center center",
                 backgroundRepeat:"no-repeat"
             }}
         >
-            <div className={`absolute lg:right-64 right-10 top-40 flex flex-col gap-2 z-10 w-[450px]`}>
-                <h2 className={`${montserrat.className} lg:text-6xl text-3xl text-white font-extrabold`}>Marchez
-                    dans <span
-                        className="block">l&lsquo;exclusivité!</span></h2>
-                <p className="text-slate-200 mb-4 lg:text-md text-sm ">
-                    Préparez-vous à découvrir une sélection unique de chaussures qui redéfiniront votre style. Bientôt disponible. <span className="text-violet-500 underline">Restez connecté !</span>
-                </p>
+            <div className={isMobile ? 'wrapper': ''}>
+                <div
+                    className={`lg:absolute lg:right-64 right-10 top-40 pt-20 lg:pt-0 flex flex-col gap-2 z-10 lg:w-[450px] lg:mb-0 mb-20`}>
+                    <h2 className={`${montserrat.className} lg:text-6xl text-3xl text-white font-extrabold`}>Marchez
+                        dans <span
+                            className="block">l&lsquo;exclusivité!</span></h2>
+                    <p className="text-slate-200 mb-4 lg:text-md ">
+                        Préparez-vous à découvrir une sélection unique de chaussures qui redéfiniront votre style.
+                        Bientôt disponible. <span className="text-violet-500 underline">Restez connecté !</span>
+                    </p>
 
-                <motion.button
-                    className={`${montserrat.className} text-white bg-violet-500 h-14 p-4 max-w-36 rounded-full font-bold flex items-center justify-center gap-2 `}
-                    whileTap={{scale: .945}}
-                    whileHover={{scale: 1.045}}
+                    <motion.button
+                        className={`${montserrat.className} text-white bg-violet-500 h-14 p-4 max-w-36 rounded-full font-bold flex items-center justify-center gap-2 `}
+                        whileTap={{scale: .945}}
+                        whileHover={{scale: 1.045}}
 
-                    onClick={handleClickToShop}
-                >Sneaker <span><FiArrowRight/></span></motion.button>
+                        onClick={handleClickToShop}
+                    >Sneaker <span><FiArrowRight/></span></motion.button>
+                </div>
+
+                <Countdown/>
             </div>
 
-            <Countdown />
         </motion.article>
     )
 }
