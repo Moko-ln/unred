@@ -16,6 +16,24 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        // Définissez vos couleurs personnalisées ici
+        indigo: {
+          50: '#f0f5ff',
+          100: '#e5edff',
+          // Ajoutez d'autres nuances de couleur si nécessaire
+        },
+        lime: {
+          50: '#f7fee7',
+          100: '#ecfccb',
+          // Ajoutez d'autres nuances de couleur si nécessaire
+        },
+        sky: {
+          50: '#f0f9ff',
+          100: '#c8e1ff',
+          // Ajoutez d'autres nuances de couleur si nécessaire
+        },
+      },
     },
   },
   plugins: [],

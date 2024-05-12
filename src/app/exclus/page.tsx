@@ -40,7 +40,7 @@ export default function Exclusivites () {
                         whileTap={{scale: .945}}
                         whileHover={{scale: 1.045}}
 
-                        onClick={handleClickToShop}
+                        onClick={ handleClickToShop }
                     >Sneaker <span><FiArrowRight/></span></motion.button>
                 </div>
 

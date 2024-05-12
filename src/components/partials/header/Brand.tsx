@@ -6,7 +6,7 @@ import Unred from "@/assets/images/unred-black.svg"
 export const Brand = () => {
   return (
 
-      <div className="lg:grow w-2/5 flex items-center justify-center">
+      <div className="lg:grow w-2/5 flex lg:items-center lg:justify-center">
         <h1 className={`${montserrat.className}`}>
             <Link href="/" className="text-blue-500">
                 <Image

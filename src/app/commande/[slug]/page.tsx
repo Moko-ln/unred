@@ -25,7 +25,6 @@ export default function Commande () {
     const [myColor, setMyColor] = useState<any>(null);
     const [mySize, setMySize] = useState<any>(null);
 
-
     const { oneShoes } = useFetchBySlug(slug);
 
     // const [quantity, setQuantity] = useState(1);

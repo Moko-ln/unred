@@ -40,7 +40,7 @@ export const HeroComp = () => {
         </div>
 
         <div className="min-h-20 bg-gradient-to-br from-black to-[#272727] p-4 flex items-center justify-center w-full flex-col gap-4">
-            <p className={`${montserrat.className} lg:text-xl text-slate-300 font-extrabold tracking-wider`}>Commandez maintenant, payez à la livraison 😄</p>
+            <p className={`${montserrat.className} lg:text-xl text-sm text-slate-300 lg:font-extrabold font-medium tracking-wider`}>Commandez maintenant, payez à la livraison 😄</p>
         </div>
 
 
