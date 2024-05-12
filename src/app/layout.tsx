@@ -1,8 +1,8 @@
 import { lato } from "@/fonts/Fonts";
-import type { Metadata } from "next";
-import "../assets/scss/index.scss";
 import StoreProvider from "@/redux/StoreProvider";
-import {Toaster} from "react-hot-toast";
+import type { Metadata } from "next";
+import { Toaster } from "react-hot-toast";
+import "../assets/scss/index.scss";
 
 export const metadata: Metadata = {
   title: "Unred | Soyez dans le coup!",
@@ -19,11 +19,10 @@ export default function RootLayout({
     <StoreProvider>
       <html lang="fr" className={lato.className}>
         <body>
-            {children}
-            <Toaster/>
+          {children}
+          <Toaster />
         </body>
       </html>
     </StoreProvider>
-
   );
 }
