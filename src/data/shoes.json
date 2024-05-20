@@ -13,6 +13,7 @@
           "id": 1,
           "color": "noir",
           "classColor": "#272727",
+          "stocks": 3,
           "images": [
             "chaussure-dunk-low-retro-pour-wwlDHh-v1",
             "chaussure-dunk-low-retro-pour-wwlDHh-v2",
@@ -21,32 +22,32 @@
           "detail": [
             {
               "id": 1,
-              "size":41,
+              "size": 41,
               "stocks": 3
             },
             {
               "id": 2,
-              "size":42,
+              "size": 42,
               "stocks": 3
             },
             {
               "id": 3,
-              "size":43,
+              "size": 43,
               "stocks": 3
             },
             {
               "id": 4,
-              "size":44,
+              "size": 44,
               "stocks": 2
             },
             {
               "id": 5,
-              "size":45,
+              "size": 45,
               "stocks": 1
             },
             {
               "id": 6,
-              "size":46,
+              "size": 46,
               "stocks": 3
             }
           ]
@@ -55,6 +56,7 @@
           "id": 2,
           "color": "violet",
           "classColor": "#C026D3",
+          "stocks": 10,
           "images": [
             "chaussure-dunk-low-retro-pour-wwlDHh-violet-v1",
             "chaussure-dunk-low-retro-pour-wwlDHh-violet-v2",
@@ -63,32 +65,32 @@
           "detail": [
             {
               "id": 1,
-              "size":"41",
+              "size": "41",
               "stocks": 3
             },
             {
               "id": 2,
-              "size":"42",
+              "size": "42",
               "stocks": 3
             },
             {
               "id": 3,
-              "size":"43",
+              "size": "43",
               "stocks": 3
             },
             {
               "id": 4,
-              "size":"44",
+              "size": "44",
               "stocks": 2
             },
             {
               "id": 5,
-              "size":"45",
+              "size": "45",
               "stocks": 1
             },
             {
               "id": 6,
-              "size":"46",
+              "size": "46",
               "stocks": 3
             }
           ]

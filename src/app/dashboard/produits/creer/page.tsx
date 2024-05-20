@@ -1,14 +1,9 @@
 "use client";
 
-import { ListProducts } from "@/features/products/components/ListProducts";
-import CreateProductsBtn from "@/features/products/components/button/CreateProductsBtn";
 import { montserrat } from "@/fonts/Fonts";
-import { useFetchShoes } from "@/hook/useFetchShoes";
 import { motion } from "framer-motion";
 
 export default function Products() {
-  const { shoesData, isLoading, error } = useFetchShoes();
-
   return (
     <motion.article
       className="w-3/12 grow py-8 relative"
@@ -22,18 +17,15 @@ export default function Products() {
             <h2
               className={`${montserrat.className} text-2xl font-bold tracking-wide text-slate-700`}
             >
-              Produits
+              Créer
             </h2>
             <p className={`text-slate-500 text-sm`}>
               Voici les dernières nouvelles de votre magasin pour
               aujourd&lsquo;hui !
             </p>
-
-            <CreateProductsBtn />
           </div>
 
-          {/* List de produits */}
-          <ListProducts data={shoesData} />
+          {/* Forms to create product */}
         </div>
       </div>
     </motion.article>

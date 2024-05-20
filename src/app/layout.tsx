@@ -1,9 +1,9 @@
+import { AuthProvider } from "@/features/auth/components/AuthProvider";
 import { lato } from "@/fonts/Fonts";
-import type { Metadata } from "next";
-import "../assets/scss/index.scss";
 import StoreProvider from "@/redux/StoreProvider";
-import {Toaster} from "react-hot-toast";
-import {AuthProvider} from "@/features/auth/components/AuthProvider";
+import type { Metadata } from "next";
+import { Toaster } from "react-hot-toast";
+import "../assets/scss/index.scss";
 
 export const metadata: Metadata = {
   title: "Unred | Soyez dans le coup!",
@@ -16,16 +16,16 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-    return (
+  return (
     <StoreProvider>
-        <AuthProvider>
-            <html lang="fr" className={lato.className}>
-                <body>
-                    {children}
-                    <Toaster/>
-                </body>
-            </html>
-        </AuthProvider>
+      <AuthProvider>
+        <html lang="fr" className={lato.className}>
+          <body>
+            {children}
+            <Toaster />
+          </body>
+        </html>
+      </AuthProvider>
     </StoreProvider>
-    );
+  );
 }
