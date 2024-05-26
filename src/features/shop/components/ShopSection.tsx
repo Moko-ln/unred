@@ -9,7 +9,7 @@ export const ShopSection = () => {
   const [filter, setFilter] = useState<object>({});
 
   return (
-    <article id="shop" className="relative overflow-hidden">
+    <article id="shop" className="relative overflow-hidden py-20">
       <div className="container-root">
         <div className="wrapper flex flex-col gap-10">
           <div className="flex lg:flex-nowrap flex-wrap justify-between items-start border border-slate-200 rounded-2xl min-h-96">
@@ -20,13 +20,12 @@ export const ShopSection = () => {
                 <h2
                     className={`${montserrat.className} lg:text-6xl text-3xl lg:text-left font-extrabold mb-4`}
                 >
-                  Soyer dans le coup!
+                  Découvrez nos produits
                 </h2>
                 <p className="text-slate-500">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Accusamus autem exercitationem modi ratione, saepe soluta!
-                  <span className="block mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    In inventore, nihil! Aspernatur dolore illum magnam.
+                    Des chaussures tendance et confortables pour tous les styles. Trouvez la paire parfaite pour vous démarquer.
+                  <span className="block mt-2">
+                    Marchez avec confiance et élégance. Explorez nos nouveautés dès maintenant !
                   </span>
                 </p>
               </div>
@@ -41,9 +40,9 @@ export const ShopSection = () => {
           </div>
 
           {/* Filter by Model */}
-          <FilterModel setFilter={setFilter}/>
+          {/*<FilterModel setFilter={setFilter}/>*/}
 
-          <ShopList filter={filter}/>
+          <ShopList filter={filter} />
 
           <hr className="bg-slate-800 my-10"/>
         </div>

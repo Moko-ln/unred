@@ -1,8 +1,6 @@
 "use client"
 
-import { CurrentSection } from "@/components/CurrentSection";
 import { HeroComp } from "@/components/HeroComp";
-import data from "@/data/shoes.json";
 import { ShopSection } from "@/features/shop/components/ShopSection";
 import {motion} from "framer-motion";
 
@@ -15,7 +13,6 @@ export default function Sneakers() {
         transition={{ type: "spring", duration: 0.6, ease: "easeIn" }}
     >
       <HeroComp />
-      <CurrentSection title="En ce momment" />
       <ShopSection />
     </motion.section>
   );

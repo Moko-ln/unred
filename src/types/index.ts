@@ -75,3 +75,8 @@ export interface dataHeroType {
   path:string;
 }
 
+export interface sizeShoesType {
+  id:number;
+  size:number;
+}
+

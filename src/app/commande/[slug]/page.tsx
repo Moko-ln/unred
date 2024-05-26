@@ -7,7 +7,7 @@ import {FiArrowLeft, FiShoppingBag} from "react-icons/fi";
 import {ListComp} from "@/components/ListComp";
 import {CurrentSection} from "@/components/CurrentSection";
 import {ButtonLike} from "@/components/button/ButtonLike";
-import {detailType, variationType} from "@/types";
+import {detailType, sizeShoesType, variationType} from "@/types";
 import {ButtonRemoveCommande} from "@/components/button/ButtonRemoveCommande";
 import {Forms} from "@/components/forms/Forms";
 import Link from "next/link";
@@ -15,6 +15,7 @@ import {useMediaQuery} from "react-responsive";
 import {motion} from "framer-motion";
 import {useParams} from "next/navigation";
 import {useFetchBySlug} from "@/hook/useFetchBySlug";
+import {sizeShoes} from "@/data/sizeShoes";
 
 export default function Commande () {
     const { slug } = useParams();
@@ -24,6 +25,8 @@ export default function Commande () {
     const [myDetail, setMyDetail] = useState<any>( null);
     const [myColor, setMyColor] = useState<any>(null);
     const [mySize, setMySize] = useState<any>(null);
+
+    const [isFree, setIsFree] = useState<any>(true);
 
     const { oneShoes } = useFetchBySlug(slug);
 
@@ -43,7 +46,7 @@ export default function Commande () {
         }
 
         let variation: any = oneShoes?.variation?.find( (item: variationType) => item.id === parseInt(myDetail?.color));
-        let detailSize: any = variation?.detail?.find( (item: detailType) => item.id === parseInt(myDetail?.selectedSize));
+        let detailSize: any = sizeShoes?.find( (item: any) => item.id === parseInt(myDetail?.selectedSize));
 
         setMyColor(variation);
         setMySize(detailSize);
@@ -72,12 +75,11 @@ export default function Commande () {
                                     </Link>
                                     <div
                                         className="border border-solid border-slate-200 rounded-sm lg:h-32 flex items-start p-10 flex-col justify-center gap-2 mb-2 order-first">
-                                        <p className={`text-xl font-bold text-blue-500 ${montserrat.className}`}>Livraison
-                                            gratuite pour chaque commande.</p>
+                                        <p className={`text-xl font-bold text-blue-500 ${montserrat.className}`}>
+                                            Profitez de la livraison gratuite en Île-de-France!</p>
                                         <p className="text-slate-500 font-light">
-                                            Vos informations personnelles sont en sécurité avec nous. Elles ne seront
-                                            utilisées
-                                            <span className="block">que pour traiter votre commande et seront gardées confidentielles.</span>
+                                            Veuillez noter que des frais de livraison s&lsquo;appliquent pour les expéditions en dehors de cette région.
+                                            <span className="block">Nous nous engageons à vous offrir un service rapide et fiable, peu importe où vous vous trouvez.</span>
                                         </p>
                                     </div>
 
@@ -117,16 +119,12 @@ export default function Commande () {
                                                     <div className="order-first h-40 w-40">
                                                         <figure className="h-40 w-40">
                                                             <Image
-                                                                src={`/uploads/man/${myColor?.images[0]
-                                                                }.jpg`}
+                                                                src={`/uploads/${myColor?.images[0]
+                                                                }.webp`}
                                                                 alt={oneShoes.title}
                                                                 width={500}
                                                                 height={500}
-                                                                style={{
-                                                                    width: "100%",
-                                                                    height: "100%",
-                                                                    objectFit: "cover"
-                                                                }}
+                                                                className="w-full h-full object-contain"
                                                             />
                                                         </figure>
                                                     </div>
@@ -137,8 +135,15 @@ export default function Commande () {
                                         {/* Forms to send */}
                                         {slug &&
                                             !isMobile &&
-                                            <Forms title={oneShoes?.title} price={oneShoes?.price} size={mySize?.size}
-                                                   color={myColor?.color} quantity={1}/>
+                                            <Forms
+                                                title={oneShoes?.title}
+                                                price={oneShoes?.price}
+                                                size={mySize?.size}
+                                                setIsFree={setIsFree}
+                                                isFree={isFree}
+                                                color={myColor?.color}
+                                                quantity={1}
+                                            />
                                         }
                                     </div>
                                     <hr/>
@@ -162,23 +167,30 @@ export default function Commande () {
                                             <p className={`${montserrat.className} text-md font-medium text-slate-700`}>Frais
                                                 estimés de prise <span
                                                     className="block">en charge et d&apos;expédition</span></p>
-                                            <span className="block">Gratuit</span>
+                                            <span className="block">{ isFree ? "Gratuit" : `${7.99} €` }</span>
                                         </div>
                                         <div
                                             className="relative border rounded-lg border-solid border-slate-200 col-span-2 flex items-center justify-between h-14 p-4">
                                             <p className={`${montserrat.className} text-md font-medium text-slate-700`}>Total</p>
                                             <span
-                                                className="block font-bold">{slug ? `${oneShoes.price} €` : "_"}</span>
+                                                className="block font-bold">{slug ? `${isFree ? oneShoes.price : oneShoes.price + 7 } €` : "_"}</span>
                                         </div>
 
                                     </div>
 
-                                    {/*<ButtonCheckout />*/}
                                 </div>
                             </div>
 
-                            {isMobile && <Forms title={oneShoes?.title} price={oneShoes?.price} size={mySize?.size}
-                                                color={myColor?.color} quantity={1}/>}
+                            {isMobile &&
+                                <Forms
+                                    title={oneShoes?.title}
+                                    price={oneShoes?.price} size={mySize?.size}
+                                    setIsFree={setIsFree}
+                                    isFree={isFree}
+                                    color={myColor?.color}
+                                    quantity={1}
+                                />
+                            }
 
                             <ListComp/>
                         </div>

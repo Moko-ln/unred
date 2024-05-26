@@ -24,10 +24,8 @@ export const HeroComp = () => {
           <h2 className={`${montserrat.className} lg:text-6xl text-3xl text-white font-extrabold`}>Soyer dans <span
               className="block">le coup!</span></h2>
           <p className="lg:w-3/12 w-full text-slate-200 mb-4 lg:text-md text-sm ">
-            Découvrez une collection de chaussures qui
-            fusionne l&lsquo;audace de la rue avec le raffinement de la
-            mode, offrant un mélange parfait de confort, de style et
-            d&lsquo;individualité à chaque pas.
+              Profitez d&lsquo;une collection de chaussures qui fusionne l&lsquo;audace de la rue avec le raffinement de la mode,
+              offrant un mélange parfait de confort, de style et d&lsquo;individualité à chaque pas.
           </p>
 
           <motion.button
@@ -36,11 +34,11 @@ export const HeroComp = () => {
               whileHover={{ scale:1.045 }}
 
               onClick={ handleClickToShop }
-          >Acheter <span><FiArrowRight /></span></motion.button>
+          >Découvrir <span><FiArrowRight /></span></motion.button>
         </div>
 
         <div className="min-h-20 bg-gradient-to-br from-black to-[#272727] p-4 flex items-center justify-center w-full flex-col gap-4">
-            <p className={`${montserrat.className} lg:text-xl text-sm text-slate-300 lg:font-extrabold font-medium tracking-wider`}>Commandez maintenant, payez à la livraison 😄</p>
+            <p className={`${montserrat.className} lg:text-xl text-sm text-slate-300 lg:font-extrabold font-medium tracking-wider`}>Commandez maintenant, payez à la livraison</p>
         </div>
 
 

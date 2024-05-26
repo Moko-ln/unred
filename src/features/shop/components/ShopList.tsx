@@ -5,7 +5,7 @@ import {useFetchShoes} from "@/hook/useFetchShoes";
 import {dataCardShoesType, filterType} from "@/types";
 
 export const ShopList = ({ filter } : filterType) => {
-  const { shoesData, isLoading, error } = useFetchShoes(filter);
+  const { shoesData, isLoading, error } = useFetchShoes();
 
   return (
     <ul className="grid lg:grid-cols-4 grid-cols-2 gap-8">

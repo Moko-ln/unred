@@ -6,12 +6,12 @@ import {Toaster} from "sonner";
 
 export default function Home() {
   return (
-    <>
-      <main>
-        <Hero />
-      </main>
-      <Footer />
-      <Toaster />
-    </>
+      <>
+          <main>
+            <Hero />
+          </main>
+          <Footer />
+          <Toaster />
+      </>
   );
 }

@@ -7,10 +7,11 @@ import { montserrat } from "@/fonts/Fonts";
 import Image from "next/image";
 import { useParams } from "next/navigation";
 import {useState} from "react";
-import {detailType, variationType} from "@/types";
+import {detailType, sizeShoesType, variationType} from "@/types";
 import {ButtonCheckout} from "@/components/button/ButtonCheckout";
 import {useFetchBySlug} from "@/hook/useFetchBySlug";
 import {motion} from "framer-motion";
+import {sizeShoes} from "@/data/sizeShoes";
 
 export default function ManShoesBySlug() {
 
@@ -74,7 +75,7 @@ export default function ManShoesBySlug() {
                         oneShoes.variation.map((item: variationType) => (
                             <li key={item.id}>
                               <button
-                                  className={`cursor-pointer block rounded-full h-10 w-10 transition ${
+                                  className={`cursor-pointer block rounded-full ${color === item.id ? "h-10 w-10" : "h-6 w-6" } transition ${
                                       color === item.id ? "border-3 border-solid border-blue-500" : ""
                                   } ${item.classColor && item.classColor}`}
                                   onClick={() => handleClickChangeColor(item.id)}
@@ -92,7 +93,7 @@ export default function ManShoesBySlug() {
                     </p>
 
                     <ul className="grid grid-cols-3 gap-2">
-                      {vars?.detail?.map((item: detailType) => (
+                      {sizeShoes?.map((item: any) => (
                           <li key={item.id}>
                             <button
                                 className={`cursor-pointer w-full border border-solid rounded-md p-2 ${selectedSize === item.id ? "border-blue-500 text-blue-500" : "text-slate-500 border-slate-200"} transition`}
@@ -136,16 +137,11 @@ export default function ManShoesBySlug() {
                               >
                                 <figure className="lg:h-[100px] h-24 w-24">
                                   <Image
-                                      src={`/uploads/man/${item}.jpg`}
+                                      src={`/uploads/${item}.webp`}
                                       alt={`Image de couverture`}
                                       width={100}
                                       height={100}
-                                      style={{
-                                        width: "100%",
-                                        height: "100%",
-                                        objectFit: "cover",
-                                        borderRadius: "3px",
-                                      }}
+                                      className="w-full h-full object-contain"
                                   />
                                 </figure>
                               </li>
@@ -158,18 +154,13 @@ export default function ManShoesBySlug() {
                       <div className="lg:h-[650px] h-96 lg:w-2/5 w-full grow order-first lg:order-last">
                         <figure className="lg:h-[650px] h-96">
                           <Image
-                              src={`/uploads/man/${
+                              src={`/uploads/${
                                   vars?.images[variation]
-                              }.jpg`}
+                              }.webp`}
                               alt={`Image de couverture`}
                               width={400}
                               height={400}
-                              style={{
-                                width: "100%",
-                                height: "100%",
-                                objectFit: "cover",
-                                borderRadius: "3px",
-                              }}
+                              className="w-full h-full object-contain"
                           />
                         </figure>
                       </div>

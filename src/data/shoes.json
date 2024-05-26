@@ -2,220 +2,368 @@
   "shoes": [
     {
       "id": 1,
-      "title": "Nike Dunk Low Retro",
+      "title": "Nike Dunk",
       "price": 119,
       "model": "nike",
-      "description": "Confortable, résistante et intemporelle : elle n'est pas classée numéro 1 pour rien. Le design des années 80 associé à des couleurs classiques. Un plaisir sur le terrain comme au quotidien.",
-      "image": "chaussure-dunk-low-retro-pour-wwlDHh",
-      "slug": "chaussure-dunk-low-retro",
+      "description": "Découvrez la Nike Dunk, une icône du streetwear alliant style rétro et confort moderne. Parfaite pour les amateurs de baskets vintage, cette paire est idéale pour compléter vos\ntenues décontractées avec une touche authentique.",
+      "image": "nikedunkblack1",
+      "slug": "chaussure-dunk",
       "variation": [
         {
           "id": 1,
           "color": "noir",
-          "classColor": "#272727",
+          "classColor": "#000000",
           "stocks": 3,
           "images": [
-            "chaussure-dunk-low-retro-pour-wwlDHh-v1",
-            "chaussure-dunk-low-retro-pour-wwlDHh-v2",
-            "chaussure-dunk-low-retro-pour-wwlDHh-v3"
-          ],
-          "detail": [
-            {
-              "id": 1,
-              "size": 41,
-              "stocks": 3
-            },
-            {
-              "id": 2,
-              "size": 42,
-              "stocks": 3
-            },
-            {
-              "id": 3,
-              "size": 43,
-              "stocks": 3
-            },
-            {
-              "id": 4,
-              "size": 44,
-              "stocks": 2
-            },
-            {
-              "id": 5,
-              "size": 45,
-              "stocks": 1
-            },
-            {
-              "id": 6,
-              "size": 46,
-              "stocks": 3
-            }
+            "nikedunkblack1",
+            "nikedunkblack2",
+            "nikedunkblack3"
           ]
         },
         {
           "id": 2,
-          "color": "violet",
-          "classColor": "#C026D3",
+          "color": "gris",
+          "classColor": "#EEEEEE",
           "stocks": 10,
           "images": [
-            "chaussure-dunk-low-retro-pour-wwlDHh-violet-v1",
-            "chaussure-dunk-low-retro-pour-wwlDHh-violet-v2",
-            "chaussure-dunk-low-retro-pour-wwlDHh-violet-v3"
-          ],
-          "detail": [
-            {
-              "id": 1,
-              "size": "41",
-              "stocks": 3
-            },
-            {
-              "id": 2,
-              "size": "42",
-              "stocks": 3
-            },
-            {
-              "id": 3,
-              "size": "43",
-              "stocks": 3
-            },
-            {
-              "id": 4,
-              "size": "44",
-              "stocks": 2
-            },
-            {
-              "id": 5,
-              "size": "45",
-              "stocks": 1
-            },
-            {
-              "id": 6,
-              "size": "46",
-              "stocks": 3
-            }
+            "nikedunkblanc1",
+            "nikedunkblanc2",
+            "nikedunkblanc3"
+          ]
+        },
+        {
+          "id": 3,
+          "color": "orange",
+          "classColor": "#FB9143",
+          "stocks": 10,
+          "images": [
+            "nikedunkorange1",
+            "nikedunkorange2",
+            "nikedunkorange3"
+          ]
+        },
+        {
+          "id": 4,
+          "color": "bleu",
+          "classColor": "#43C3FB",
+          "stocks": 10,
+          "images": [
+            "nikedunkblue1",
+            "nikedunkblue2",
+            "nikedunkblue3"
+          ]
+        },
+        {
+          "id": 5,
+          "color": "vert",
+          "classColor": "#0F5030",
+          "stocks": 10,
+          "images": [
+            "nikedunkgreen1",
+            "nikedunkgreen2",
+            "nikedunkgreen3"
           ]
         }
       ]
     },
     {
       "id": 2,
-      "title": "Nike Air Force 1 '07",
-      "price": 119,
+      "title": "Nike Travis Scott",
+      "price": 190,
       "model": "nike",
-      "description": "Confortable, résistante et intemporelle : elle n'est pas classée numéro 1 pour rien. Le design des années 80 associé à des couleurs classiques. Un plaisir sur le terrain comme au quotidien.",
-      "color": ["white", "black"],
-      "image": "chaussure-air-force-1-07-pour-qcn0p9",
-      "slug": "chaussure-air-force-1-07",
+      "description": "Plongez dans l'univers unique de Travis Scott avec cette collaboration exclusive de Nike. Avec son design audacieux et ses détails distinctifs, cette paire est un must-have pour les collectionneurs et les fans de streetwear.",
+      "image": "travisscottblack1",
+      "slug": "chaussure-travisscott",
       "variation": [
-        "chaussure-dunk-low-retro-pour-wwlDHh-v1",
-        "chaussure-dunk-low-retro-pour-wwlDHh-v2",
-        "chaussure-dunk-low-retro-pour-wwlDHh-v3"
+        {
+          "id": 1,
+          "color": "noir",
+          "classColor": "#000000",
+          "stocks": 3,
+          "images": [
+            "travisscottblack1",
+            "travisscottblack2",
+            "travisscottblack3"
+          ]
+        },
+        {
+          "id": 2,
+          "color": "gris",
+          "classColor": "#979797",
+          "stocks": 10,
+          "images": [
+            "travisscottgris1",
+            "travisscottgris2",
+            "travisscottgris3"
+          ]
+        },
+        {
+          "id": 3,
+          "color": "blanc",
+          "classColor": "#EEEEEE",
+          "stocks": 10,
+          "images": [
+            "travisscott1",
+            "travisscott2",
+            "travisscott3"
+          ]
+        },
+        {
+          "id": 4,
+          "color": "bleu",
+          "classColor": "#43C3FB",
+          "stocks": 10,
+          "images": [
+            "travisscottblue1",
+            "travisscottblue2",
+            "travisscottblue3"
+          ]
+        }
       ]
     },
     {
       "id": 3,
-      "title": "Nike Air Force 1 '07 Next Nature",
-      "price": 119,
-      "model": "Addidas",
-      "description": "Confortable, résistante et intemporelle : elle n'est pas classée numéro 1 pour rien. Le design des années 80 associé à des couleurs classiques. Un plaisir sur le terrain comme au quotidien.",
-      "color": ["white", "black"],
-      "image": "chaussures-air-force-1-07-next-nature-pour-7dl9fM",
-      "slug": "chaussures-air-force-1-07-next-nature",
+      "title": "Nike NOCTA V2",
+      "price": 190,
+      "model": "nike",
+      "description": "Fruit de la collaboration entre Nike et Drake, la NOCTA V2 incarne un style urbain sophistiqué. Avec ses finitions soignées et son confort inégalé, elle est parfaite pour ceux qui recherchent une basket alliant mode et performance.",
+      "image": "noctaorange1",
+      "slug": "chaussure-noctav2",
       "variation": [
-        "chaussure-dunk-low-retro-pour-wwlDHh-v1",
-        "chaussure-dunk-low-retro-pour-wwlDHh-v2",
-        "chaussure-dunk-low-retro-pour-wwlDHh-v3"
+        {
+          "id": 1,
+          "color": "orange",
+          "classColor": "#FB9143",
+          "stocks": 3,
+          "images": [
+            "noctaorange1",
+            "noctaorange2",
+            "noctaorange3"
+          ]
+        }
       ]
     },
     {
       "id": 4,
-      "title": "Nike Dunk Low",
-      "price": 129.99,
-      "model": "nike",
-      "description": "Confortable, résistante et intemporelle : elle n'est pas classée numéro 1 pour rien. Le design des années 80 associé à des couleurs classiques. Un plaisir sur le terrain comme au quotidien.",
-      "color": ["white", "black"],
-      "image": "chaussure-dunk-low-pour-NDWvwq",
-      "slug": "chaussure-dunk-low",
+      "title": "New Balance 9060",
+      "price": 180,
+      "model": "New Balance",
+      "description": "La New Balance 9060 se distingue par son design futuriste et son confort supérieur. Idéale pour les amateurs de sneakers avant-gardistes, cette paire combine innovation et style unique.",
+      "image": "newbalance9060multicolor1",
+      "slug": "chaussure-newbalance9060",
       "variation": [
-        "chaussure-dunk-low-retro-pour-wwlDHh-v1",
-        "chaussure-dunk-low-retro-pour-wwlDHh-v2",
-        "chaussure-dunk-low-retro-pour-wwlDHh-v3"
+        {
+          "id": 1,
+          "color": "multicolor",
+          "classColor": "#F9B149",
+          "stocks": 3,
+          "images": [
+            "newbalance9060multicolor1",
+            "newbalance9060multicolor2",
+            "newbalance9060multicolor3"
+          ]
+        },
+        {
+          "id": 2,
+          "color": "noir",
+          "classColor": "#000000",
+          "stocks": 10,
+          "images": [
+            "newbalance9060black1",
+            "newbalance9060black2",
+            "newbalance9060black3"
+          ]
+        },
+        {
+          "id": 3,
+          "color": "gris",
+          "classColor": "#979797",
+          "stocks": 10,
+          "images": [
+            "newbalance9060gris1",
+            "newbalance9060gris2",
+            "newbalance9060gris3"
+          ]
+        },
+        {
+          "id": 4,
+          "color": "beige",
+          "classColor": "#FFF3DF",
+          "stocks": 10,
+          "images": [
+            "newbalance9060beige1",
+            "newbalance9060beige2",
+            "newbalance9060beige3"
+          ]
+        }
       ]
     },
     {
       "id": 5,
-      "title": "Nike Romaleos 4",
-      "price": 199.99,
-      "model": "nike",
-      "description": "Confortable, résistante et intemporelle : elle n'est pas classée numéro 1 pour rien. Le design des années 80 associé à des couleurs classiques. Un plaisir sur le terrain comme au quotidien.",
-      "color": ["white", "black"],
-      "image": "chaussure-de-renforcement-musculaire-romaleos-4-49p8Ns",
-      "slug": "chaussure-de-renforcement-musculaire-romaleos",
+      "title": "New Balance 1000R",
+      "price": 180,
+      "model": "New Balance",
+      "description": "Avec son look inspiré des modèles de running classiques, la New Balance 1000R assure style et confort au quotidien. Conçue avec des matériaux de qualité, elle offre durabilité et une touche rétro à vos tenues.",
+      "image": "newbalance1000rmarron1",
+      "slug": "chaussure-newbalance1000r",
       "variation": [
-        "chaussure-dunk-low-retro-pour-wwlDHh-v1",
-        "chaussure-dunk-low-retro-pour-wwlDHh-v2",
-        "chaussure-dunk-low-retro-pour-wwlDHh-v3"
+        {
+          "id": 1,
+          "color": "marron",
+          "classColor": "#704909",
+          "stocks": 3,
+          "images": [
+            "newbalance1000rmarron1",
+            "newbalance1000rmarron2",
+            "newbalance1000rmarron3"
+          ]
+        },
+        {
+          "id": 2,
+          "color": "gris",
+          "classColor": "#979797",
+          "stocks": 10,
+          "images": [
+            "newbalance1000rgris1",
+            "newbalance1000rgris2",
+            "newbalance1000rgris3"
+          ]
+        }
       ]
     },
     {
       "id": 6,
-      "title": "Nike Air Force 1 LE",
-      "price": 94,
-      "model": "nike",
-      "description": "Confortable, résistante et intemporelle : elle n'est pas classée numéro 1 pour rien. Le design des années 80 associé à des couleurs classiques. Un plaisir sur le terrain comme au quotidien.",
-      "color": ["white", "black"],
-      "image": "chaussure-air-force-1-le-pour-ado-4dFJ5B",
-      "slug": "chaussure-air-force-1-le",
+      "title": "New Balance 2002",
+      "price": 180,
+      "model": "New Balance",
+      "description": "La New Balance 2002 combine élégance et performance avec un design inspiré des chaussures de running des années 2000. Confort ultime et style raffiné en font un choix parfait pour une allure chic et sportive.",
+      "image": "newbalance2002black1",
+      "slug": "chaussure-newbalance2002",
       "variation": [
-        "chaussure-dunk-low-retro-pour-wwlDHh-v1",
-        "chaussure-dunk-low-retro-pour-wwlDHh-v2",
-        "chaussure-dunk-low-retro-pour-wwlDHh-v3"
+        {
+          "id": 1,
+          "color": "noir",
+          "classColor": "#000000",
+          "stocks": 3,
+          "images": [
+            "newbalance2002black1",
+            "newbalance2002black2",
+            "newbalance2002black3"
+          ]
+        },
+        {
+          "id": 2,
+          "color": "bleu",
+          "classColor": "#4CB6F3",
+          "stocks": 10,
+          "images": [
+            "newbalance2002blue1",
+            "newbalance2002blue2",
+            "newbalance2002blue3"
+          ]
+        },
+        {
+          "id": 3,
+          "color": "rouge",
+          "classColor": "#D73636",
+          "stocks": 10,
+          "images": [
+            "newbalance2002red1",
+            "newbalance2002red2",
+            "newbalance2002red3"
+          ]
+        }
       ]
     },
     {
       "id": 7,
-      "title": "Nike Air Max Plus",
-      "price": 199.99,
-      "model": "nike",
-      "description": "Confortable, résistante et intemporelle : elle n'est pas classée numéro 1 pour rien. Le design des années 80 associé à des couleurs classiques. Un plaisir sur le terrain comme au quotidien.",
-      "color": ["white", "black"],
-      "image": "chaussure-air-max-plus-pour-mSn1cX",
-      "slug": "chaussure-air-max-plus",
+      "title": "Adidas Campus",
+      "price": 160,
+      "model": "Adidas",
+      "description": "Classique et intemporelle, l&#39;Adidas Campus offre un design épuré avec des matériaux de qualité. Confortable et polyvalente, elle s&#39;intègre facilement à tous les styles, des tenues casual aux looks plus habillés.",
+      "image": "adidascampusred1",
+      "slug": "chaussure-adidascampus",
       "variation": [
-        "chaussure-dunk-low-retro-pour-wwlDHh-v1",
-        "chaussure-dunk-low-retro-pour-wwlDHh-v2",
-        "chaussure-dunk-low-retro-pour-wwlDHh-v3"
+        {
+          "id": 1,
+          "color": "rouge",
+          "classColor": "#F44646",
+          "stocks": 3,
+          "images": [
+            "adidascampusred1",
+            "adidascampusred2",
+            "adidascampusred3"
+          ]
+        },
+        {
+          "id": 2,
+          "color": "gris",
+          "classColor": "#DADBDA",
+          "stocks": 10,
+          "images": [
+            "adidascampusgris1",
+            "adidascampusgris2",
+            "adidascampusgris3"
+          ]
+        },
+        {
+          "id": 3,
+          "color": "vert",
+          "classColor": "#278013",
+          "stocks": 10,
+          "images": [
+            "adidascampusgreen1",
+            "adidascampusgreen2",
+            "adidascampusgreen3"
+          ]
+        }
       ]
     },
     {
       "id": 8,
-      "title": "Nike Air Force 1 '07",
-      "price": 129.99,
+      "title": "Jordan 4",
+      "price": 160,
       "model": "nike",
-      "description": "Confortable, résistante et intemporelle : elle n'est pas classée numéro 1 pour rien. Le design des années 80 associé à des couleurs classiques. Un plaisir sur le terrain comme au quotidien.",
-      "color": ["white", "black"],
-      "image": "chaussure-air-force-1-07-pour-DRv39l",
-      "slug": "chaussure-air-force-1-07",
+      "description": "Adoptez un look légendaire avec la Jordan 4, une sneaker emblématique qui allie performance et design iconique. Parfaite pour les fans de basketball et les passionnés de mode, elle offre un confort inégalé et un style intemporel.",
+      "image": "jordanquatre1",
+      "slug": "chaussure-jordan4",
       "variation": [
-        "chaussure-dunk-low-retro-pour-wwlDHh-v1",
-        "chaussure-dunk-low-retro-pour-wwlDHh-v2",
-        "chaussure-dunk-low-retro-pour-wwlDHh-v3"
-      ]
-    },
-    {
-      "id": 9,
-      "title": "Nike Dunk Low Retro",
-      "price": 119.99,
-      "model": "nike",
-      "description": "Confortable, résistante et intemporelle : elle n'est pas classée numéro 1 pour rien. Le design des années 80 associé à des couleurs classiques. Un plaisir sur le terrain comme au quotidien.",
-      "color": ["white", "black"],
-      "image": "chaussures-dunk-low-retro-pour-4bbv52",
-      "slug": "chaussures-dunk-low-retro",
-      "variation": [
-        "chaussure-dunk-low-retro-pour-wwlDHh-v1",
-        "chaussure-dunk-low-retro-pour-wwlDHh-v2",
-        "chaussure-dunk-low-retro-pour-wwlDHh-v3"
+        {
+          "id": 1,
+          "color": "noir",
+          "classColor": "#000000",
+          "stocks": 3,
+          "images": [
+            "jordanquatre1",
+            "jordanquatre2",
+            "jordanquatre3"
+          ]
+        },
+        {
+          "id": 2,
+          "color": "jaune",
+          "classColor": "#E1F562",
+          "stocks": 10,
+          "images": [
+            "jordanquatrejaune1",
+            "jordanquatrejaune2",
+            "jordanquatrejaune3"
+          ]
+        },
+        {
+          "id": 3,
+          "color": "bleu",
+          "classColor": "#66C1F9",
+          "stocks": 10,
+          "images": [
+            "jordanquatreblue1",
+            "jordanquatreblue2",
+            "jordanquatreblue3"
+          ]
+        }
       ]
     }
   ]
 }
+
+
