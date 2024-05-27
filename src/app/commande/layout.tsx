@@ -5,9 +5,9 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
     title: "Unred - Commande",
     description:
-        "Consultez les mentions légales de Lemiza traiteur. Nous sommes bien plus qu'une simple entreprise de traiteur. Chez Lemiza, nous nous engageons à fournir des services exceptionnels, une attention méticuleuse aux détails et une discrétion absolue.",
+        "Passez votre commande sur Unred. Profitez d'un processus d'achat simple et sécurisé pour obtenir vos chaussures préférées. Suivez vos commandes et bénéficiez de nos offres exclusives.",
     keywords:
-        "mentions légales, politique de confidentialité, CGU, conditions générales d'utilisation",
+        "Unred, commande, achat en ligne, chaussures, suivi de commande, offres exclusives, achat sécurisé",
     robots: "index, follow",
 };
 

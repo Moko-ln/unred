@@ -4,10 +4,8 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
     title: "Unred - Wishlist",
-    description:
-        "Consultez les mentions légales de Lemiza traiteur. Nous sommes bien plus qu'une simple entreprise de traiteur. Chez Lemiza, nous nous engageons à fournir des services exceptionnels, une attention méticuleuse aux détails et une discrétion absolue.",
-    keywords:
-        "mentions légales, politique de confidentialité, CGU, conditions générales d'utilisation",
+    description: "Découvrez et gérez vos chaussures préférées sur la wishlist Unred. Gardez une trace de vos coups de cœur et soyez le premier informé des nouvelles collections et offres spéciales.",
+    keywords: "Unred, wishlist, chaussures, liste de souhaits, mode, chaussures de sport, chaussures élégantes, nouvelles collections, offres spéciales",
     robots: "index, follow",
 };
 

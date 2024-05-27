@@ -3,9 +3,9 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Unred - Exclus",
   description:
-    "Consultez les mentions légales de Lemiza traiteur. Nous sommes bien plus qu'une simple entreprise de traiteur. Chez Lemiza, nous nous engageons à fournir des services exceptionnels, une attention méticuleuse aux détails et une discrétion absolue.",
+      "Découvrez les collections exclusives Unred. Accédez à des chaussures uniques et limitées, disponibles uniquement sur notre site. Profitez des designs exclusifs et des éditions limitées pour un style inégalé.",
   keywords:
-    "mentions légales, politique de confidentialité, CGU, conditions générales d'utilisation",
+      "Unred, collections exclusives, chaussures, éditions limitées, mode, chaussures uniques, offres exclusives",
   robots: "index, follow",
 };
 

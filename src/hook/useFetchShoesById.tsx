@@ -16,7 +16,7 @@ export const useFetchShoesById = (id: number) => {
             try {
                 // const res = fetch('/data/shoes.json');
                 // if (!res.ok) {
-                //     throw new Error("Failed fetching shoes.");
+                //     throw new NotFound("Failed fetching shoes.");
                 // }
                 // const data = await res.json();
 

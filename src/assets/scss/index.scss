@@ -42,6 +42,41 @@ body {
   object-fit: cover;
 }
 
+#mentions {
+  min-height: 100vh;
+  padding: 110px 0;
+  & > div {
+    color: #272727;
+    max-width: 900px;
+    h2 {
+      text-decoration: underline #55c6e8;
+    }
+    ol {
+      list-style-type: decimal;
+      padding-left: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      li {
+        h3 {
+          font-weight: 400;
+          font-size: 1.1rem;
+        }
+        .proprietaire {
+          margin-top: 45px;
+          & > p {
+            border: 1px solid rgba($color: #fafafa, $alpha: 0.4);
+            border-radius: 2px;
+            padding: 15px;
+
+            margin-bottom: 25px;
+          }
+        }
+      }
+    }
+  }
+}
+
 @media screen  and (max-width: 800px) {
   .container-root {
     width: 100%;

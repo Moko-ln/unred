@@ -5,7 +5,7 @@ import { ButtonLike } from "@/components/button/ButtonLike";
 
 import { montserrat } from "@/fonts/Fonts";
 import Image from "next/image";
-import { useParams } from "next/navigation";
+import {notFound, useParams} from "next/navigation";
 import {useState} from "react";
 import {detailType, sizeShoesType, variationType} from "@/types";
 import {ButtonCheckout} from "@/components/button/ButtonCheckout";
@@ -39,6 +39,11 @@ export default function ManShoesBySlug() {
   const vars = Array.isArray(oneShoes?.variation)
       ? oneShoes.variation.find((item: variationType) => item.id === color) // Si oui, appelez find sur le tableau
       : undefined;
+
+
+  console.log(oneShoes)
+
+  if (error) return notFound()
 
   return (
     <motion.section
