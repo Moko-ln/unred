@@ -42,7 +42,7 @@ export const HeroComp = () => {
         </div>
 
 
-        <div className={`h-[700px] bg-green-900`}>
+        <div className={`h-[700px]`}>
           <figure className={`h-[700px]`}>
             <Image
                 src={isMobile ? BannerMob : Banner}
