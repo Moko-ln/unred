@@ -67,7 +67,7 @@ export default function ManShoesBySlug() {
                       {oneShoes.title}
                     </h2>
                     <p className="text-left text-blue-500 order-first font-bold mb-2">
-                      Livraision gratuit!
+                      Livraision gratuit en Ile de france!
                     </p>
                     <p className="text-left text-lg text-slate-500 font-bold">
                       {oneShoes.price} €
@@ -91,9 +91,7 @@ export default function ManShoesBySlug() {
                   </ul>
 
                   <div>
-                    <p
-                        className={`${montserrat.className} text-xl font-medium text-left mb-4`}
-                    >
+                    <p className={`${montserrat.className} text-xl font-medium text-left mb-4`}>
                       Selectionner la taille
                     </p>
 

@@ -18,6 +18,7 @@ export const ShopList = ({ filter } : filterType) => {
             model={item.model}
             image={item.image}
             slug={item.slug}
+            variation={item.variation}
           />
         </li>
       )) }

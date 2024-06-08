@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "Nike Dunk",
-      "price": 119,
+      "price": 140,
       "model": "nike",
       "description": "Découvrez la Nike Dunk, une icône du streetwear alliant style rétro et confort moderne. Parfaite pour les amateurs de baskets vintage, cette paire est idéale pour compléter vos\ntenues décontractées avec une touche authentique.",
       "image": "nikedunkblack1",
@@ -72,22 +72,11 @@
       "price": 190,
       "model": "nike",
       "description": "Plongez dans l'univers unique de Travis Scott avec cette collaboration exclusive de Nike. Avec son design audacieux et ses détails distinctifs, cette paire est un must-have pour les collectionneurs et les fans de streetwear.",
-      "image": "travisscottblack1",
+      "image": "travisscottgris1",
       "slug": "chaussure-travisscott",
       "variation": [
         {
           "id": 1,
-          "color": "noir",
-          "classColor": "#000000",
-          "stocks": 3,
-          "images": [
-            "travisscottblack1",
-            "travisscottblack2",
-            "travisscottblack3"
-          ]
-        },
-        {
-          "id": 2,
           "color": "gris",
           "classColor": "#979797",
           "stocks": 10,
@@ -95,6 +84,17 @@
             "travisscottgris1",
             "travisscottgris2",
             "travisscottgris3"
+          ]
+        },
+        {
+          "id": 2,
+          "color": "noir",
+          "classColor": "#000000",
+          "stocks": 3,
+          "images": [
+            "travisscottblack1",
+            "travisscottblack2",
+            "travisscottblack3"
           ]
         },
         {
@@ -280,7 +280,7 @@
       "title": "Adidas Campus",
       "price": 160,
       "model": "Adidas",
-      "description": "Classique et intemporelle, l&#39;Adidas Campus offre un design épuré avec des matériaux de qualité. Confortable et polyvalente, elle s&#39;intègre facilement à tous les styles, des tenues casual aux looks plus habillés.",
+      "description": "Classique et intemporelle, l'adidas Campus offre un design épuré avec des matériaux de qualité. Confortable et polyvalente, elle s'intègre facilement à tous les styles, des tenues casual aux looks plus habillés.",
       "image": "adidascampusred1",
       "slug": "chaussure-adidascampus",
       "variation": [
@@ -325,22 +325,11 @@
       "price": 160,
       "model": "nike",
       "description": "Adoptez un look légendaire avec la Jordan 4, une sneaker emblématique qui allie performance et design iconique. Parfaite pour les fans de basketball et les passionnés de mode, elle offre un confort inégalé et un style intemporel.",
-      "image": "jordanquatre1",
+      "image": "jordanquatrejaune1",
       "slug": "chaussure-jordan4",
       "variation": [
         {
           "id": 1,
-          "color": "noir",
-          "classColor": "#000000",
-          "stocks": 3,
-          "images": [
-            "jordanquatre1",
-            "jordanquatre2",
-            "jordanquatre3"
-          ]
-        },
-        {
-          "id": 2,
           "color": "jaune",
           "classColor": "#E1F562",
           "stocks": 10,
@@ -348,6 +337,17 @@
             "jordanquatrejaune1",
             "jordanquatrejaune2",
             "jordanquatrejaune3"
+          ]
+        },
+        {
+          "id": 2,
+          "color": "noir",
+          "classColor": "#000000",
+          "stocks": 3,
+          "images": [
+            "jordanquatre1",
+            "jordanquatre2",
+            "jordanquatre3"
           ]
         },
         {

@@ -112,7 +112,6 @@ export default function Commande () {
 
                                                         <div className="absolute bottom-5 flex gap-4">
                                                             <ButtonLike id={oneShoes.id}/>
-                                                            <ButtonRemoveCommande id={oneShoes.id}/>
                                                         </div>
                                                     </div>
 
