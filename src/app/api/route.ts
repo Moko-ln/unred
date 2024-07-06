@@ -1,6 +1,4 @@
-// pages/api/route.ts
 import { createTransporter } from '@/utils/createTransporter';
-import {montserrat} from "@/fonts/Fonts";
 
 export async function POST(request: Request) {
 
