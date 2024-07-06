@@ -308,7 +308,7 @@ export async function POST(request: Request) {
                                       </ul>
                                   </div>
                                   <div class="box6">
-                                      <a href="http://localhost:3000/" class="link title-2">
+                                      <a href="unred.fr" class="link title-2">
                                           Unred.fr
                                       </a>
                                   </div>
@@ -614,13 +614,8 @@ export async function POST(request: Request) {
                               </li>
                           </ul>
                       </div>
-<!--                      <div class="box5">-->
-<!--                          <p class="title-2">-->
-<!--                              Commandez maintenant, payez à la livraison-->
-<!--                          </p>-->
-<!--                      </div>-->
                       <div class="box6">
-                          <a href="http://localhost:3000/" class="link title-2">
+                          <a href="unred.fr" class="link title-2">
                               Unred.fr
                           </a>
                       </div>
@@ -642,68 +637,3 @@ export async function POST(request: Request) {
         return Response.json({ error: error });
     }
 }
-
-// <!DOCTYPE html>
-// <html lang="fr">
-// <head>
-//     <meta charset="UTF-8">
-// <meta name="viewport" content="width=device-width, initial-scale=1.0">
-// <script src="https://kit.fontawesome.com/98b9c84d40.js" crossorigin="anonymous"></script>
-//     <style>
-//     body {
-//     font-family: Arial, sans-serif;
-//     line-height: 1.6;
-//     color: #333;
-// }
-// .container {
-//     width: 80%;
-//     margin: 0 auto;
-//     border-radius: 5px;
-//     background-color: #f9f9f9;
-// }
-// .section {
-//     margin-bottom: 20px;
-// }
-// .section h2 {
-//     color: #555;
-//     border-bottom: 1px solid #ddd;
-//     padding-bottom: 5px;
-// }
-// .details {
-//     margin-left: 20px;
-// }
-// .details p {
-//     margin: 5px 0;
-// }
-// </style>
-// </head>
-// <body>
-// <div class="container">
-//     <p>Bonjour Unred,</p>
-//
-// <div class="section">
-//     <h2>Coordonnées de l'utilisateur</h2>
-// <div class="details">
-//     <p><strong>Nom :</strong> ${res.lastName}</p>
-// <p><strong>Prénom :</strong> ${res.firstName}</p>
-// <p><strong>Email :</strong> ${res.email}</p>
-// <p><strong>Numéro de téléphone :</strong> ${res.phone}</p>
-// <p><strong>Region :</strong> ${res.region}</p>
-// <p><strong>Ville :</strong> ${res.city}</p>
-// <p><strong>Adresse complète :</strong> ${res.address}</p>
-// <p><strong>Code postal :</strong> ${res.code}</p>
-// </div>
-// </div>
-//
-// <div class="section">
-//     <h2>Détail de la commande</h2>
-// <div class="details">
-//     <p><strong>Chaussures :</strong> ${res.title}</p>
-// <p><strong>Prix :</strong> ${res.price}</p>
-// <p><strong>Taille ou pointure :</strong> ${res.size}</p>
-// <p><strong>Livraison :</strong> ${res.livraison}</p>
-// </div>
-// </div>
-// </div>
-// </body>
-// </html>
