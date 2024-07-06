@@ -7,7 +7,7 @@ import { montserrat } from "@/fonts/Fonts";
 import Image from "next/image";
 import {notFound, useParams} from "next/navigation";
 import {useState} from "react";
-import {detailType, sizeShoesType, variationType} from "@/types";
+import {variationType} from "@/types";
 import {ButtonCheckout} from "@/components/button/ButtonCheckout";
 import {useFetchBySlug} from "@/hook/useFetchBySlug";
 import {motion} from "framer-motion";
@@ -21,7 +21,7 @@ export default function ManShoesBySlug() {
 
   const { slug } = useParams();
 
-  const { oneShoes, isLoading, error } = useFetchBySlug(slug)
+  const { oneShoes, error } = useFetchBySlug(slug)
 
   const handleClickChangeVariation = (variation: number) => {
     setVariation(variation);
