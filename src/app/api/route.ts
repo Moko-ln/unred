@@ -22,6 +22,7 @@ export async function POST(request: Request) {
                     <head>
                         <meta charset="UTF-8">
                         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                        <title>Commande chaussure Unred</title>
                         <script src="https://kit.fontawesome.com/98b9c84d40.js" crossorigin="anonymous"></script>
                         <style>
                             body {
@@ -328,6 +329,7 @@ export async function POST(request: Request) {
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Commande chaussure Unred</title>
             <script src="https://kit.fontawesome.com/98b9c84d40.js" crossorigin="anonymous"></script>
             <style>
                 body {
