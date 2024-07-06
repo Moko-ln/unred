@@ -40,9 +40,6 @@ export default function ManShoesBySlug() {
       ? oneShoes.variation.find((item: variationType) => item.id === color) // Si oui, appelez find sur le tableau
       : undefined;
 
-
-  console.log(oneShoes)
-
   if (error) return notFound()
 
   return (
