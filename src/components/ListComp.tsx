@@ -28,19 +28,19 @@ const dataList = [
   {
     id: 1,
     title: "Commander",
-    text: "Découvrez une collection de chaussures de luxe pour hommes qui fusionne",
+    text: "Sélectionnez vos chaussures préférées et passez commande en quelques clics.",
     icon: <FiShoppingCart />,
   },
   {
     id: 2,
     title: "Livrer",
-    text: "Découvrez une collection de chaussures de luxe pour hommes qui fusionne",
+    text: "Recevez votre commande rapidement avec notre service de livraison fiable.",
     icon: <FiTruck />,
   },
   {
     id: 3,
     title: "Payer",
-    text: "Découvrez une collection de chaussures de luxe pour hommes qui fusionne",
+    text: "Payez facilement à la livraison. Profitez d'un processus sécurisé et pratique, sans tracas.",
     icon: <FiPercent />,
   },
 ];

@@ -8,7 +8,7 @@ const formatNumberWithZero = (num: number): string => {
 };
 
 export const Countdown: React.FC = () => {
-    const endDate = useMemo(() => new Date('2024-07-16T00:00:00Z'), []);
+    const endDate = useMemo(() => new Date('2024-07-22T00:00:00Z'), []);
 
     const [remainingTime, setRemainingTime] = useState<number>(endDate.getTime() - Date.now()); // Temps restant jusqu'à la date de fin
 

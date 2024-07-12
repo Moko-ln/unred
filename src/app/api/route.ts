@@ -3,8 +3,6 @@ import { createTransporter } from '@/utils/createTransporter';
 export async function POST(request: Request) {
 
     if (!process.env.NEXT_APP_EMAIL || !process.env.NEXT_APP_PASS) {
-
-        console.log("Les identifiants de messagerie ne sont pas définis.")
         return Response.json({ message: 'Les identifiants de messagerie ne sont pas définis.' });
     }
 
