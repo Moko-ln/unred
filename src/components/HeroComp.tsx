@@ -24,12 +24,12 @@ export const HeroComp = () => {
           <h2 className={`${montserrat.className} lg:text-6xl text-3xl text-white font-extrabold`}>Soyer dans <span
               className="block">le coup!</span></h2>
           <p className="lg:w-3/12 w-full text-slate-200 mb-4 lg:text-md text-sm ">
-              Profitez d&lsquo;une collection de chaussures qui fusionne l&lsquo;audace de la rue avec le raffinement de la mode,
-              offrant un mélange parfait de confort, de style et d&lsquo;individualité à chaque pas.
+              Profitez de notre collection de chaussures qui fusionne l&lsquo;audace de la rue avec le raffinement de la mode,
+              offrant un mélange parfait de confort, de style et d&lsquo;individualité à chaque pas. Nous vendons des répliques de qualité exceptionnelle.
           </p>
 
           <motion.button
-              className={`${montserrat.className} text-white bg-black h-14 p-4 max-w-36 rounded-sm font-bold flex items-center justify-center gap-2 `}
+              className={`${montserrat.className} text-white bg-black h-14 p-4 max-w-36 rounded-sm font-bold flex items-center justify-center gap-2`}
               whileTap={{ scale:.945 }}
               whileHover={{ scale:1.045 }}
 

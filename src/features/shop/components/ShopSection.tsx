@@ -23,10 +23,7 @@ export const ShopSection = () => {
                   Découvrez nos produits
                 </h2>
                 <p className="text-slate-500">
-                    Des chaussures tendance et confortables pour tous les styles. Trouvez la paire parfaite pour vous démarquer.
-                  <span className="block mt-2">
-                    Marchez avec confiance et élégance. Explorez nos nouveautés dès maintenant !
-                  </span>
+                  Des chaussures tendance et confortables pour tous les styles. Nos répliques de bonne qualité chez Unred vous permettent de vous démarquer avec confiance et élégance. Explorez nos nouveautés dès maintenant !
                 </p>
               </div>
             </div>

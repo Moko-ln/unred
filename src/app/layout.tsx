@@ -1,6 +1,7 @@
 import { lato } from "@/fonts/Fonts";
 import StoreProvider from "@/redux/StoreProvider";
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Toaster } from "react-hot-toast";
 import "../assets/scss/index.scss";
 
@@ -18,6 +19,18 @@ export default function RootLayout({
   return (
     <StoreProvider>
         <html lang="fr" className={lato.className}>
+          <head>
+            <Script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_ID_GOOGLE}`}></Script>
+            <Script id="google-analytics">
+              {
+                `
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date ());
+                `
+              }
+            </Script>
+          </head>
           <body>
             {children}
             <Toaster />
