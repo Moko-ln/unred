@@ -45,11 +45,7 @@ export const CardShoes = ({
   }
 
   return (
-    <div
-        className="flex flex-col gap-4"
-        onMouseEnter={ HandleMouseTrue }
-        onMouseLeave={ HandleMouseFalse }
-    >
+    <div className="flex flex-col gap-4">
         <div className="flex items-start justify-between">
             <div className="flex flex-col gap-2">
                 <h3 className={`${montserrat.className} text-md font-bold text-left text-xs lg:text-lg`}>
@@ -67,12 +63,14 @@ export const CardShoes = ({
                                 variants={container}
                                 initial="hidden"
                                 animate="show"
+
+                                transition={{ type: "spring", damping:50, stiffness:100 }}
                             >
                                 {Array.isArray(variation) &&
                                     variation.map((item: variationType) => (
                                         <li key={item.id}>
                                             <button
-                                                className={`cursor-pointer block rounded-full h-4 w-4 transition ${item.classColor && item.classColor}`}
+                                                className={`cursor-default block rounded-full h-4 w-4 transition ${item.classColor && item.classColor}`}
                                                 style={{backgroundColor: item.classColor}}
                                             ></button>
                                         </li>
@@ -90,7 +88,11 @@ export const CardShoes = ({
             className={`lg:h-72 h-32 order-first mb-0 cursor-pointer border border-slate-200 rounded-2xl overflow-hidden`}
             onClick={() => handleClick(slug)}
         >
-            <figure className="lg:h-72 h-32">
+            <motion.figure
+
+                className="lg:h-72 h-32"
+                whileHover={{ scale: 1.045 }}
+            >
                 <Image
                     src={`/uploads/${image}.webp`}
                     alt={`Image de couverture`}
@@ -102,8 +104,11 @@ export const CardShoes = ({
                         objectFit: "contain",
                         borderRadius: "3px",
                     }}
+
+                    onMouseEnter={ HandleMouseTrue }
+                    onMouseLeave={ HandleMouseFalse }
                 />
-            </figure>
+            </motion.figure>
         </div>
     </div>
   );

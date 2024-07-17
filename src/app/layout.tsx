@@ -20,6 +20,7 @@ export default function RootLayout({
     <StoreProvider>
         <html lang="fr" className={lato.className}>
           <head>
+            <title>Unred | Soyez dans le coup!</title>
             <Script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_ID_GOOGLE}`}></Script>
             <Script id="google-analytics">
               {

@@ -132,7 +132,7 @@ export default function ManShoesBySlug() {
                           vars?.images?.map((item: string, index: number) => (
                               <li
                                   key={index + 1}
-                                  className="lg:h-[100px] h-24 w-24 lg:w-2/5 cursor-pointer"
+                                  className="lg:h-[100px] h-24 overflow-hidden cursor-pointer relative border border-slate-200 flex items-center justify-center rounded-2xl"
                                   onClick={() => handleClickChangeVariation(index)}
                               >
                                 <figure className="lg:h-[100px] h-24 w-24">
@@ -144,6 +144,10 @@ export default function ManShoesBySlug() {
                                       className="w-full h-full object-contain"
                                   />
                                 </figure>
+
+                                {variation === index &&
+                                  <span className="bg-blue-400 w-4 h-4  absolute top-0 right-0"></span>
+                                }
                               </li>
                           ))}
                     </ul>

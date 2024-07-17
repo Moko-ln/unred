@@ -12,22 +12,27 @@ import { CardShoes } from "@/features/shoes/components/CardShoes";
 import {useFetchShoes} from "@/hook/useFetchShoes";
 import {dataCardShoesType} from "@/types";
 import {useMediaQuery} from "react-responsive";
+import createRandomArray from "@/utils/createRamdomArray";
 
 export const MySwipper = () => {
-  const { shoesData, isLoading, error } = useFetchShoes();
+  const { shoesData } = useFetchShoes();
 
     const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
 
+
+    const curentShoes = createRandomArray(shoesData);
+
+
     return (
     <Swiper
-      slidesPerView={ isMobile ? 1 : 3 }
+      slidesPerView={ isMobile ? 2 : 3 }
       spaceBetween={30}
       pagination={{
         clickable: false,
       }}
       className="mySwiper"
     >
-      { shoesData && shoesData.map(( shoes:  dataCardShoesType) => (
+      { curentShoes && curentShoes.map(( shoes:  dataCardShoesType) => (
         <SwiperSlide key={shoes.id}>
           <CardShoes
             id={shoes.id}

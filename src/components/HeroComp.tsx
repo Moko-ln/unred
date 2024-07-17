@@ -52,7 +52,7 @@ export const HeroComp = () => {
                   height: "100%",
                   objectFit: "cover",
                   borderRadius: "3px",
-                  filter:"brightness(85%)",
+                  filter:"brightness(75%)",
                 }}
             />
           </figure>

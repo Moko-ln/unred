@@ -2,11 +2,10 @@
 
 import { montserrat } from "@/fonts/Fonts";
 import { ShopList } from "./ShopList";
-import { FilterModel } from "./filter/FilterModel";
 import {useState} from "react";
 
 export const ShopSection = () => {
-  const [filter, setFilter] = useState<object>({});
+  const [filter] = useState<object>({});
 
   return (
     <article id="shop" className="relative overflow-hidden py-20">
