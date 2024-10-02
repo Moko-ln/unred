@@ -1,6 +1,6 @@
 #  Cyberpunk Edgerunners Showcase
 
-Welcome to the Unred showcase, an e-commerce site built with Next.js.
+Welcome to the [Unred](https://www.unred.fr/) showcase, an e-commerce site built with Next.js.
 
 ## Table of content
 
