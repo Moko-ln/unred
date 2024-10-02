@@ -30,9 +30,9 @@ Welcome to the [Unred](https://www.unred.fr/) showcase, an e-commerce site built
 1. Clonez le dépôt :
 
 ```bash
-git clone https://github.com/Moko-ln/cyberpunk.git
+git clone https://github.com/Moko-ln/unred.git
 
-cd underluxe
+cd unred
 
 2. Installez les dépendances :
 
