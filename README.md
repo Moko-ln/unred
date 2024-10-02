@@ -11,7 +11,7 @@ Welcome to the Unred showcase, an e-commerce site built with Next.js.
 
 ## Overview
 
-![david](https://github.com/Moko-ln/cyberpunk/assets/120736517/903de1da-6b15-4fbc-a16a-98357857896c)
+file:///home/ecotron/Images/Captures%20d%E2%80%99%C3%A9cran/Capture%20d%E2%80%99%C3%A9cran%20du%202024-10-02%2022-21-03.png
 
 ## Features
 
