@@ -11,7 +11,7 @@ Welcome to the Unred showcase, an e-commerce site built with Next.js.
 
 ## Overview
 
-file:///home/ecotron/Images/Captures%20d%E2%80%99%C3%A9cran/Capture%20d%E2%80%99%C3%A9cran%20du%202024-10-02%2022-21-03.png
+![Capture d’écran du 2024-10-02 22-21-03](https://github.com/user-attachments/assets/f88c7c54-e14b-4d86-88a5-eadb0ef35688)
 
 ## Features
 
